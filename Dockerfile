@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 
-MAINTAINER Guillaume REMY
+LABEL maintainer="guillaume@paloo.fr"
 
 RUN apt update
 RUN pat install -y vim python2 python3 python3-pip man net-tools
