@@ -3,7 +3,7 @@ FROM kalilinux/kali-rolling
 LABEL maintainer="guillaume@paloo.fr"
 
 RUN apt update && apt upgrade -y
-RUN pat install -y vim python2 python3 python3-pip man net-tools openjdk-14-jdk apktool netcat
+RUN apt install -y vim python2 python3 python3-pip man net-tools openjdk-14-jdk apktool netcat
 RUN apt install -y nmap metasploit-framework iputils-ping set thc-ssl-dos scapy siege beef-xss dirbuster skipfish hydra john hashcat crunch hash-identifier 
 RUN apt install -y chntpw mitmproxy recon-ng lbd xprobe2 veil-evasion 
 RUN pip3 install slowloris
