@@ -10,23 +10,28 @@ At the moment, this image contains the tools listed bellow, but the list grows a
 - Python (Version 2 and 3)
 - OpenJDK 14
 - Android SDK
+- ApkTool
 - NetCat
 - Vim
 
 ### Scanning
-- [Nmap](https://nmap.org/)
-- Recon-ng
-- lbd
-
+- **[Nmap](https://nmap.org/)** --- *Network analysis tool*
+- **Recon-ng** --- *Web Reconnaissance framework*
+- **lbd** --- *Load balancer detector*
+- **onesixtyone** --- *SNMP scanner*
+- **p0f** --- *OS identification*
+- **XProbe2** --- *OS identification*
+- **nbtscan** --- *NetBIOS information scanner*
 
 ### Exploitation
-- [Metasploit](https://www.metasploit.com/)
-- Scapy (DoS)
-- Siege
-- XProbe2
+- **[Metasploit](https://www.metasploit.com/)** --- *Framework for exploit development and vulnerability research*
+- **Scapy** --- *Packet generator/sniffer and network scanner/discovery*
+- **Siege** --- *regression testing and benchmarking*
+- **thc-ssl-dos** --- *Stress tester for the SSL handshake*
+- **SqlMap** --- automatic SQL injection tool 
 
 ### Social Engineering
-- Social Engineering Toolkit
+- **SET** --- *the Social Engineering Toolkit*
 
 ### Vulnerability research
 - Beef
@@ -40,6 +45,7 @@ At the moment, this image contains the tools listed bellow, but the list grows a
 - Chntpw
 - Crunch
 - Hash-Identifier
+- findmyhash
 
 ### MITM
 - Mitm-Proxy
