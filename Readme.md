@@ -1,10 +1,10 @@
 # Welcome to my custom Kali-Linux docker image!
 
-It is based on **[kali-rolling](https://hub.docker.com/r/kalilinux/kali-rolling)**, which is updated weekly.  
+It is based on **[Kali-Rolling](https://hub.docker.com/r/kalilinux/kali-rolling)**, which is updated weekly.
 The source Dockerfile is available on GitHub : https://github.com/remyguillaume/docker-kali.
 
 # Content
-At the moment, this image contains the tools listed bellow, but the list grows as I practice :-)
+At the moment, this image contains the tools listed below, but the list grows as I practice :-)
 
 ### Common tools/packages
 - Python (Version 2 and 3)
