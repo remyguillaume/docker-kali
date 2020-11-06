@@ -13,6 +13,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - ApkTool
 - NetCat
 - Vim
+- PCI-Utils
 
 ### Scanning
 - **[Nmap](https://nmap.org/)** --- *Network analysis tool*
@@ -43,6 +44,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Ettercap** --- *Multipurpose sniffer/interceptor/logger for switched LAN*
 - **DNSChef** --- *DNS proxy for penetration testers*
 - **dSniff** --- *Various tools to sniff network traffic for cleartext insecurities* [urlsnarf, arpspoof]
+- **Websploit** --- *Web exploitation framework*
 
 ### Footprinting
 - **SET** --- *The Social Engineering Toolkit*
@@ -67,10 +69,44 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Hash-Identifier** --- *Tool to identify hash types*
 - **findmyhash** --- *Python script to search for online hash*
 
+### Wordlists
+- **Wordlists** -- *Rockyou wordlist*
+- **MicFiles** --- *Dictionaries and other interesting files*
+- **Cupp** --- *Generate dictionaries from personal data*
+- **Wswiss** --- *Swiss (German) wordlist*
+- **Wfrench** --- *French wordlists*
+- **Wogerman** --- *German wordlists*
+- **Wamerican** --- *American wordlists*
+- **Wbritish** --- *British English wordlists*
+- **Wcanadian** --- *Canadian English wordlists*
+
+### WiFi
+- **AirCrack-ng** --- *Wireless WEP/WPA cracking utilities*
+- **Kismet** --- *Wireless network and device detector*
+- **MacChanger** --- *Manipulate the MAC address of network interfaces*
+- **Wifite** --- *Automate wireless auditing using aircrack-ng tools*
+- **Reaver** --- *Brute force attack tool against Wifi WPS Authentication*
+- **Bridge-Utils** --- *Utilities for configuring the Linux Ethernet bridge*
+
 ### Antivirus evasion
 - **Veil-Evasion** --- *Bypass anti-virus detection*
 
+### Reporting
+- **CutyCapt** --- *Capture WebKit's rendering of a web page*
+- **Dradis** --- *Reporting and collaboration tools*
+
+### Misc
+- **Httrack** --- *Copy websites to your computer*
+
 # How to use
+
+**Minimalistic:**
+
 `docker run -ti remyguillaume/kali bash`
+
+**To be able to use Wifi interface in docker (ie. for aircrack tools):**
+
+`docker run -ti --net="host" --privileged remyguillaume/kali bash`
+
 
 Enjoy! :)

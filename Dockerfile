@@ -3,16 +3,21 @@ FROM kalilinux/kali-rolling
 LABEL maintainer="guillaume@paloo.fr"
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
+        aircrack-ng \
         android-sdk \
         arping \
         beef-xss \
+        bridge-utils \
         chntpw \
         crunch \
+        cupp \
+        cutycapt \
         dirbuster \
         dmitry \
         dnschef \
         dnsenum \
         dnsutils \
+        dradis \
         driftnet \
         dsniff \
         ettercap-text-only \
@@ -21,12 +26,17 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         hash-identifier \
         hashcat \
         hping3 \
+        httrack \
         hydra \
         iputils-ping \
         john \
+        kismet \
         lbd \
+        libssl-dev \
+        macchanger \
         man \
         metasploit-framework \
+        miscfiles \
         mitmproxy \
         nbtscan \
         net-tools \
@@ -36,9 +46,11 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         onesixtyone \
         openjdk-14-jdk \
         p0f \
+        pciutils \
         python2 \
         python3 \
         python3-pip \
+        reaver \
         recon-ng \
         scapy \
         set \
@@ -53,7 +65,16 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         unicornscan \ 
         veil-evasion \
         vim \
+        wamerican \
+        wbritish \
+        wcanadian \
+        websploit \
+        wfrench \
         whois \
+        wifite \
+        wogerman \
+        wordlists \
+        wswiss \
         xprobe2 \
         xsser \
     && rm -rf /var/lib/apt/lists/*
