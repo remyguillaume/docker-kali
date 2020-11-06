@@ -27,6 +27,10 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **hPing3** --- *Active Network Smashing Tool*
 - **UnicornScan** --- *Userland distributed TCP/IP stack*
 - **Driftnet** --- *Picks out and displays images from network traffic*
+- **Nikto** --- *Web server security scanner*
+- **SslScan** --- *Fast SSL scanner*
+- **Sslyze** --- *Fast and full-featured SSL scanner*
+- **Arachni** --- *Web Application Security Scanner Framework*
 
 ### Exploitation
 - **[Metasploit](https://www.metasploit.com/)** --- *Framework for exploit development and vulnerability research*

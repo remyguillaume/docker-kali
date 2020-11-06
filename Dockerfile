@@ -31,6 +31,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         nbtscan \
         net-tools \
         netcat \
+        nikto \
         nmap \
         onesixtyone \
         openjdk-14-jdk \
@@ -44,6 +45,8 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         siege \
         skipfish \
         sqlmap \
+        sslscan \
+        sslyze \
         tcptraceroute \
         thc-ssl-dos \ 
         theharvester \
@@ -60,6 +63,8 @@ RUN export PATH=$(dirname "$(find /usr/lib/android-sdk/build-tools/ -name aapt)"
 RUN wget -O /opt/findmyhash.py https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/findmyhash/findmyhash_v1.1.2.py && \
     wget -O /usr/local/bin/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool && \
     wget -O /usr/local/bin/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.1.jar && \
+    wget  -O /opt/arachni.tar.gz https://github.com/Arachni/arachni/releases/download/v1.5.1/arachni-5.1-0.5.12-linux-x86_64.tar.gz && \
+    cd /opt && tar -xzvf arachni.tar.gz && \
     chmod +x /usr/local/bin/apktool*
 
 RUN pip3 install slowloris
