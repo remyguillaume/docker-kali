@@ -59,6 +59,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **BeEF** --- *Browser Exploitation Framework*
 - **DirBuster** --- *Web server directory brute-forcer*
 - **SkipFish** --- *Web application security reconnaissance tool*
+- **DirB** --- *URL bruteforcing tool*
 
 ### Passwords (Brute forcing, hash identification, ...)
 - **Hydra** --- *Network logon cracker*
@@ -68,6 +69,8 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Crunch** --- *Tool for creating wordlist*
 - **Hash-Identifier** --- *Tool to identify hash types*
 - **findmyhash** --- *Python script to search for online hash*
+- **Patator** --- *Multi-purpose brute-forcer*
+- **HashId** --- *Identify the different types of hashes used to encrypt data*
 
 ### Wordlists
 - **Wordlists** -- *Rockyou wordlist*
