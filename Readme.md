@@ -14,6 +14,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - NetCat
 - Vim
 - PCI-Utils
+- LDAP-Utils
 
 ### Scanning
 - **[Nmap](https://nmap.org/)** --- *Network analysis tool*

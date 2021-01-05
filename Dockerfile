@@ -34,6 +34,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         john \
         kismet \
         lbd \
+        ldap-utils \
         libssl-dev \
         macchanger \
         man \
