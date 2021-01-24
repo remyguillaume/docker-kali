@@ -22,6 +22,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         driftnet \
         dsniff \
         ettercap-text-only \
+        fierce \
         fping \
         google-android-build-tools-24-installer \
         hash-identifier \
@@ -35,6 +36,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         kismet \
         lbd \
         ldap-utils \
+        libnet-snmp-perl \
         libssl-dev \
         macchanger \
         man \
@@ -91,5 +93,8 @@ RUN wget -O /opt/findmyhash.py https://storage.googleapis.com/google-code-archiv
     chmod +x /usr/local/bin/apktool*
 
 RUN pip3 install slowloris
+
+# TODO : Automate this in build without prompting to autoconfiguration of PEM
+# RUN cpan Crypt/DES.pm && cpan Crypt/OpenSSL/AES.pm
 
 RUN export PATH=$(dirname "$(find /usr/lib/android-sdk/build-tools/ -name aapt)"):$PATH

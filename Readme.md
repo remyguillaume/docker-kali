@@ -7,14 +7,15 @@ The source Dockerfile is available on GitHub : https://github.com/remyguillaume/
 At the moment, this image contains the tools listed below, but the list grows as I practice :-)
 
 ### Common tools/packages
-- Python (Version 2 and 3)
-- OpenJDK 14
 - Android SDK
 - ApkTool
-- NetCat
-- Vim
-- PCI-Utils
 - LDAP-Utils
+- NetCat
+- OpenJDK 14
+- PCI-Utils
+- Perl
+- Python (Version 2 and 3)
+- Vim
 
 ### Scanning
 - **[Nmap](https://nmap.org/)** --- *Network analysis tool*
@@ -53,6 +54,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **DnsUtils** --- *DNS Utilities*
 - **DnsEnum** --- *Enumerate domain DNS information*
 - **Dmitry** --- *Deepmagic Information Gathering Tool*
+- **Fierce** --- *Domain DNS scanner*
 - **TcpTraceroute** --- *Traceroute implementation using TCP packets*
 - **TheHarvester** --- *Gather e-mail accounts and subdomain names from public sources*
 
