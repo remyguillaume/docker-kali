@@ -15,6 +15,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - PCI-Utils
 - Perl
 - Python (Version 2 and 3)
+- Screen
 - Vim
 
 ### Scanning

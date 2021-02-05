@@ -59,6 +59,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         reaver \
         recon-ng \
         scapy \
+        screen \
         set \
         siege \
         skipfish \
