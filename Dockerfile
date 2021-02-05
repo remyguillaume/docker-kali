@@ -33,6 +33,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         hydra \
         iputils-ping \
         john \
+        joomscan \
         kismet \
         lbd \
         ldap-utils \
@@ -81,6 +82,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         wifite \
         wogerman \
         wordlists \
+        wpscan \
         wswiss \
         xprobe2 \
         xsser \

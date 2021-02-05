@@ -35,6 +35,10 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **SslScan** --- *Fast SSL scanner*
 - **Sslyze** --- *Fast and full-featured SSL scanner*
 - **Arachni** --- *Web Application Security Scanner Framework*
+- **Wpscan** --- *WordPress vulnerability scanner*
+- **Joomscan** --- *Joomla Vulnerability Scanner*
+
+┌──(root💀f568cac20922)-[/]
 
 ### Exploitation
 - **[Metasploit](https://www.metasploit.com/)** --- *Framework for exploit development and vulnerability research*
