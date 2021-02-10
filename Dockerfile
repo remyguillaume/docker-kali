@@ -7,6 +7,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         android-sdk \
         arping \
         beef-xss \
+        binwalk \
         bridge-utils \
         chntpw \
         crunch \

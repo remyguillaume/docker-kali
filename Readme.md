@@ -38,8 +38,6 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Wpscan** --- *WordPress vulnerability scanner*
 - **Joomscan** --- *Joomla Vulnerability Scanner*
 
-┌──(root💀f568cac20922)-[/]
-
 ### Exploitation
 - **[Metasploit](https://www.metasploit.com/)** --- *Framework for exploit development and vulnerability research*
 - **Scapy** --- *Packet generator/sniffer and network scanner/discovery*
@@ -108,6 +106,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 
 ### Misc
 - **Httrack** --- *Copy websites to your computer*
+- **BinWalk** --- *Analyze binary blobs and executable code*
 
 # How to use
 
