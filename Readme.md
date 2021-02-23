@@ -11,7 +11,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - ApkTool
 - LDAP-Utils
 - NetCat
-- OpenJDK 14
+- OpenJDK 17
 - PCI-Utils
 - Perl
 - Python (Version 2 and 3)
