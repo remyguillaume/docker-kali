@@ -51,7 +51,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         nikto \
         nmap \
         onesixtyone \
-        openjdk-14-jdk \
+        openjdk-17-jdk \
         p0f \
         patator \
         pciutils \
