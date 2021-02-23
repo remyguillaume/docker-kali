@@ -58,6 +58,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         python2 \
         python3 \
         python3-pip \
+        python3-venv \
         reaver \
         recon-ng \
         scapy \
