@@ -37,6 +37,8 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Arachni** --- *Web Application Security Scanner Framework*
 - **Wpscan** --- *WordPress vulnerability scanner*
 - **Joomscan** --- *Joomla Vulnerability Scanner*
+- **NetDiscover** --- *Network address scanner using ARP requests*
+- **aMap** --- *Next-generation scanning tool for pentesters*
 
 ### Exploitation
 - **[Metasploit](https://www.metasploit.com/)** --- *Framework for exploit development and vulnerability research*
@@ -88,6 +90,9 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Wamerican** --- *American wordlists*
 - **Wbritish** --- *British English wordlists*
 - **Wcanadian** --- *Canadian English wordlists*
+
+### Forensic
+- **Peepdf** --- *PDF analysis tool*
 
 ### WiFi
 - **AirCrack-ng** --- *Wireless WEP/WPA cracking utilities*

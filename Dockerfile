@@ -4,6 +4,7 @@ LABEL maintainer="guillaume@paloo.fr"
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         aircrack-ng \
+        amap \
         android-sdk \
         arping \
         beef-xss \
@@ -48,6 +49,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         nbtscan \
         net-tools \
         netcat \
+        netdiscover \
         nikto \
         nmap \
         onesixtyone \
@@ -97,7 +99,7 @@ RUN wget -O /opt/findmyhash.py https://storage.googleapis.com/google-code-archiv
     cd /opt && tar -xzvf arachni.tar.gz && \
     chmod +x /usr/local/bin/apktool*
 
-RUN pip3 install slowloris
+RUN pip3 install slowloris peepdf-fork
 
 # TODO : Automate this in build without prompting to autoconfiguration of PEM
 # RUN cpan Crypt/DES.pm && cpan Crypt/OpenSSL/AES.pm
