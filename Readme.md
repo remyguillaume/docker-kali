@@ -45,10 +45,11 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Scapy** --- *Packet generator/sniffer and network scanner/discovery*
 - **Siege** --- *Regression testing and benchmarking*
 - **thc-ssl-dos** --- *Stress tester for the SSL handshake*
+- **thc-ipv6** --- *The Hacker Choice's IPv6 Attack Toolkit*
 - **SqlMap** --- *Automatic SQL injection tool*
 - **XSSer** --- *XSS testing framework*
-- **Mitm-Proxy** --- *Man-in-the-middle HTTP proxy*
 - **Ettercap** --- *Multipurpose sniffer/interceptor/logger for switched LAN*
+- **Mitm-Proxy** --- *Man-in-the-middle HTTP proxy*
 - **DNSChef** --- *DNS proxy for penetration testers*
 - **dSniff** --- *Various tools to sniff network traffic for cleartext insecurities* [urlsnarf, arpspoof]
 - **Websploit** --- *Web exploitation framework*
@@ -94,6 +95,10 @@ At the moment, this image contains the tools listed below, but the list grows as
 ### Forensic
 - **Peepdf** --- *PDF analysis tool*
 
+### Traffic Analysis
+- **TShark** --- *network traffic analyzer*
+- **TCPDump** --- *command-line network traffic analyzer*
+
 ### WiFi
 - **AirCrack-ng** --- *Wireless WEP/WPA cracking utilities*
 - **Kismet** --- *Wireless network and device detector*
@@ -119,7 +124,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 
 `docker run -ti remyguillaume/kali bash`
 
-**To be able to use Wifi interface in docker (ie. for aircrack tools):**
+**To be able to do network analysis (with tcpdump, tshark, aircrack, ...), use the host network :**
 
 `docker run -ti --net="host" --privileged remyguillaume/kali bash`
 

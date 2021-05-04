@@ -72,6 +72,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         sslscan \
         sslyze \
         tcptraceroute \
+        thc-ipv6 \
         thc-ssl-dos \ 
         theharvester \
         unicornscan \ 
