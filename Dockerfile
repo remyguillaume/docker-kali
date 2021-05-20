@@ -105,7 +105,7 @@ RUN wget -O /opt/findmyhash.py https://storage.googleapis.com/google-code-archiv
     wget -O /tmp/get-pip.py https://bootstrap.pypa.io/pip/2.7/get-pip.py && \
     cd /tmp && python2 get-pip.py && \
     wget -O /opt/volatility.zip https://downloads.volatilityfoundation.org/releases/2.6/volatility-2.6.zip && \
-    cd /opt && unzip volatility.zip && rm volatility.zip && alias volatility='python2 volatility-master/vol.py' && \
+    cd /opt && unzip volatility.zip && rm volatility.zip && alias volatility='python2 /opt/volatility-master/vol.py' && \
     chmod +x /usr/local/bin/apktool*
 
 RUN pip3 install slowloris peepdf-fork
