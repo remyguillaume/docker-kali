@@ -10,6 +10,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         beef-xss \
         binwalk \
         bridge-utils \
+        build-essential \
         chntpw \
         crunch \
         cupp \
@@ -39,6 +40,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         kismet \
         lbd \
         ldap-utils \
+        libpcap-dev \
         libnet-snmp-perl \
         libssl-dev \
         macchanger \
@@ -97,7 +99,13 @@ RUN wget -O /opt/findmyhash.py https://storage.googleapis.com/google-code-archiv
     wget -O /usr/local/bin/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool && \
     wget -O /usr/local/bin/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.1.jar && \
     wget  -O /opt/arachni.tar.gz https://github.com/Arachni/arachni/releases/download/v1.5.1/arachni-1.5.1-0.5.12-linux-x86_64.tar.gz && \
-    cd /opt && tar -xzvf arachni.tar.gz && \
+    cd /opt && tar -xzvf arachni.tar.gz && rm arachni.tar.gz && \ 
+    wget  -O /tmp/tcprelay.tar.gz http://milletseb.free.fr/tcprelay/packages/tcprelay-1.3.2.tar.gz && \
+    cd /tmp && tar -xzvf tcprelay.tar.gz && rm tcprelay.tar.gz && cd tcprelay-1.3.2 && ./configure && make && make install && \
+    wget -O /tmp/get-pip.py https://bootstrap.pypa.io/pip/2.7/get-pip.py && \
+    cd /tmp && python2 get-pip.py && \
+    wget -O /opt/volatility.zip https://downloads.volatilityfoundation.org/releases/2.6/volatility-2.6.zip && \
+    cd /opt && unzip volatility.zip && rm volatility.zip && alias volatility='python2 volatility-master/vol.py' && \
     chmod +x /usr/local/bin/apktool*
 
 RUN pip3 install slowloris peepdf-fork

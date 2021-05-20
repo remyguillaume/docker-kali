@@ -45,7 +45,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Scapy** --- *Packet generator/sniffer and network scanner/discovery*
 - **Siege** --- *Regression testing and benchmarking*
 - **thc-ssl-dos** --- *Stress tester for the SSL handshake*
-- **thc-ipv6** --- *The Hacker Choice's IPv6 Attack Toolkit*
+- **[thc-ipv6](https://tools.kali.org/information-gathering/thc-ipv6)** --- *The Hacker Choice's IPv6 Attack Toolkit*
 - **SqlMap** --- *Automatic SQL injection tool*
 - **XSSer** --- *XSS testing framework*
 - **Ettercap** --- *Multipurpose sniffer/interceptor/logger for switched LAN*
@@ -53,6 +53,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **DNSChef** --- *DNS proxy for penetration testers*
 - **dSniff** --- *Various tools to sniff network traffic for cleartext insecurities* [urlsnarf, arpspoof]
 - **Websploit** --- *Web exploitation framework*
+- **TCPRelay** --- *Accept incoming connections and redirect them to the specified server*
 
 ### Footprinting
 - **SET** --- *The Social Engineering Toolkit*
@@ -94,6 +95,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 
 ### Forensic
 - **Peepdf** --- *PDF analysis tool*
+- **[Volatility](https://github.com/volatilityfoundation/volatility/wiki)** --- *Advanced Memory Analysis*
 
 ### Traffic Analysis
 - **TShark** --- *network traffic analyzer*
