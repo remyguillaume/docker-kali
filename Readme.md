@@ -86,6 +86,7 @@ At the moment, this image contains the tools listed below, but the list grows as
 - **Wordlists** -- *Rockyou wordlist*
 - **MicFiles** --- *Dictionaries and other interesting files*
 - **Cupp** --- *Generate dictionaries from personal data*
+- **Cewl** --- *Custom word list generator*
 - **Wswiss** --- *Swiss (German) wordlist*
 - **Wfrench** --- *French wordlists*
 - **Wogerman** --- *German wordlists*
@@ -96,6 +97,8 @@ At the moment, this image contains the tools listed below, but the list grows as
 ### Forensic
 - **Peepdf** --- *PDF analysis tool*
 - **[Volatility](https://github.com/volatilityfoundation/volatility/wiki)** --- *Advanced Memory Analysis*
+- **TestDisk** --- *Partition scanner and disk recovery tool, and PhotoRec file recovery tool*
+- **ExifTool** --- *library and program to read and write meta information in multimedia files*
 
 ### Traffic Analysis
 - **TShark** --- *network traffic analyzer*
