@@ -11,6 +11,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         binwalk \
         bridge-utils \
         build-essential \
+        cewl \
         chntpw \
         crunch \
         cupp \
@@ -40,6 +41,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         kismet \
         lbd \
         ldap-utils \
+        libimage-exiftool-perl \
         libpcap-dev \
         libnet-snmp-perl \
         libssl-dev \
@@ -74,6 +76,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
         sslscan \
         sslyze \
         tcptraceroute \
+        testdisk \
         thc-ipv6 \
         thc-ssl-dos \ 
         theharvester \
